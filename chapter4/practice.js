@@ -54,27 +54,37 @@ randomNum = Math.floor(randomNum * 6)
 
 // let userInput = prompt()
 
-switch(randomNum){
-    case 1:
-        console.log('Number 1');
-        break;
-    case 2:
-        console.log('Number 2');
-        break;
-    case 3:
-        console.log('Number 3');
-        break;
-    case 4:
-        console.log('Number 4');
-        break;
-    case 5:
-        console.log('Number 5');
-        break;
-    case 6:
-        console.log('Number 6');
-        break;
+// switch(randomNum){
+//     case 1:
+//         console.log('Number 1');
+//         break;
+//     case 2:
+//         console.log('Number 2');
+//         break;
+//     case 3:
+//         console.log('Number 3');
+//         break;
+//     case 4:
+//         console.log('Number 4');
+//         break;
+//     case 5:
+//         console.log('Number 5');
+//         break;
+//     case 6:
+//         console.log('Number 6');
+//         break;
     
-}
+// }
 
 
-console.log();
+
+// Rock Paper Scissors game
+
+// 1. Create an array that contains the variables Rock, Paper, and Scissors.
+// 2. Set up a variable that generates a random number 0-2 for the player and then do the same for the computer's selection. The number represents the index values in the array of the 3 items.
+// 3. Create a variable to hold a response message to the user. This can show the random results for the player and then also the result for the computer of the matching item from the array.
+// 4. Create a condition to handle the player and computer selections. If both are the same, this results in a tie.
+// 5. Use conditions to apply the game logic and return the correct results. There are several ways to do this with the condition statements, but you could check which player's index value is bigger and assign the victory accordingly, with the exception of Rock beating Scissors.
+// 6. Add a new output message that shows the player selection versus the computer selection and the result of the game.
+
+

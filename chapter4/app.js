@@ -40,4 +40,7 @@ let access = myAge < 18 ? "denied" : "allowed";
 
 let myId = true;
 let enterVenue = myId ? "valid" : "denied";
-console.log(enterVenue);
+// console.log(enterVenue);
+
+
+
