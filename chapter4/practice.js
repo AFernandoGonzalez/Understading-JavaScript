@@ -81,10 +81,38 @@ randomNum = Math.floor(randomNum * 6)
 // Rock Paper Scissors game
 
 // 1. Create an array that contains the variables Rock, Paper, and Scissors.
-// 2. Set up a variable that generates a random number 0-2 for the player and then do the same for the computer's selection. The number represents the index values in the array of the 3 items.
+// 2. Set up a variable that generates a random number 0-2 for the player and then do the same for the computer's selection. 
+// The number represents the index values in the array of the 3 items.
 // 3. Create a variable to hold a response message to the user. This can show the random results for the player and then also the result for the computer of the matching item from the array.
 // 4. Create a condition to handle the player and computer selections. If both are the same, this results in a tie.
-// 5. Use conditions to apply the game logic and return the correct results. There are several ways to do this with the condition statements, but you could check which player's index value is bigger and assign the victory accordingly, with the exception of Rock beating Scissors.
+
+// 5. Use conditions to apply the game logic and return the correct results. 
+// There are several ways to do this with the condition statements, 
+// but you could check which player's index value is bigger and assign the victory accordingly, 
+// with the exception of Rock beating Scissors.
+
 // 6. Add a new output message that shows the player selection versus the computer selection and the result of the game.
+
+
+const arr = ['Rock', 'Paper', 'Scissors']
+
+let randomPlayerNumber = Math.random()
+randomPlayerNumber = Math.floor(randomPlayerNumber * 3)
+
+let randomCompNumber = Math.random()
+randomCompNumber = Math.floor(randomCompNumber * 3)
+
+const player = randomPlayerNumber;
+const comp = randomCompNumber;
+
+console.log(`Player: ${player}  Computer: ${comp}`);
+
+if(player === comp){
+    console.log('Tie');
+}else if(player < comp){
+    console.log('Computer Won');
+}else {
+    console.log('Player won');
+}
 
 
